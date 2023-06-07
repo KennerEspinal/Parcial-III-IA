@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.golf-course {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url('golf_course.png');
+    background-size: cover;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.hole {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    transform: translateY(-700%);
+}
+
+.player {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translateY(-1400%);
+}
+
+.inputs {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputs label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inputs input {
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#calculate-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; /* Añadido para centrar el botón */
+    display: block; /* Añadido para que ocupe todo el ancho disponible */
+}
+
+.output {
+    text-align: center;
+}
+
+.output h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.output p {
+    font-size: 16px;
+}
